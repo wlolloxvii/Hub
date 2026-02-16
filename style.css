@@ -1,0 +1,30 @@
+:root {
+  --bg-color: #1c1f24;
+  --text-color: #e3f0ff;
+  --link-color: #6292b8;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  margin: 60px;
+  font-size: 15px;
+}
+
+.tree-content {
+  line-height: 1.5;
+}
+
+
+.tree-link {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.tree-link:hover {
+  text-decoration: underline;
+}
+
+
+
